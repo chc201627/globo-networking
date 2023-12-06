@@ -5,18 +5,15 @@
 variable "region" {
   type        = string
   description = "(Optional) AWS Region to use. Default: us-east-1"
-  default     = "us-east-2"
 }
 
 variable "prefix" {
   type        = string
   description = "(Optional) Prefix to use for all resources in this module. Default: globo-dev"
-  default     = "globo-dev"
 }
 variable "environment" {
   type        = string
   description = "(optional) Environment of all resources"
-  default     = "development"
 }
 
 variable "billing_code" {
